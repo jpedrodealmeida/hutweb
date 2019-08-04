@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from './components/header';
 
-import './style.css'
+import Header from './components/header';
+import Main from './pages/main';
+import './style.css';
 
 
 const App = () => (
   <div className="App">
     <Header/>
+    <Main />
   </div>
 );
 
